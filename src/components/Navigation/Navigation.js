@@ -8,9 +8,9 @@ const Navigation = () => {
             <div className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center font-medium">
                 <HashLink to="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                     <img src={Logo} className="w-10 h-10" alt="Delwar Ahmed" />
-                    <span className="ml-3 text-xl">Delwar Ahmed</span>
+                    <span className="ml-3 text-2xl">Delwar Ahmed</span>
                 </HashLink>
-                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <nav className="md:ml-auto flex flex-wrap items-center text-xl justify-center">
                     <HashLink smooth to="/#about" className="mr-5 hover:text-gray-900">About</HashLink>
                     <HashLink smooth to="/#skills" className="mr-5 hover:text-gray-900">Skills</HashLink>
                     <HashLink smooth to="/#projects" className="mr-5 hover:text-gray-900">Projects</HashLink>
